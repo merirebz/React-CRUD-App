@@ -95,8 +95,8 @@ function App() {
         {users.map((u) => (
           <li key={u.id}>
             <b>{u.name}</b> — {u.email}
-            <button onClick={() => editUser(u)}>Edit</button>
-            <button onClick={() => deleteUser(u.id)}>Delete</button>
+            <button onClick={() => editUser(u)}> Edit </button>
+            <button onClick={() => deleteUser(u.id)}> Delete </button>
           </li>
         ))}
       </ul>
